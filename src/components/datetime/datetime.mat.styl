@@ -5,6 +5,9 @@
   padding 0 10px 8px
 
 .q-datetime
+  /* rtl:begin:ignore */
+  direction rtl
+  /* rtl:end:ignore */
   font-size 12px
   text-align center
   user-select none
@@ -53,6 +56,10 @@ div + .q-datetime-time
   width 250px
   height 285px
   color black
+
+/* rtl:ignore */
+.q-datetime-view-day .q-btn
+  transform rotate(180deg)
 
 .q-datetime-view-year, .q-datetime-view-month
   > .q-btn:not(.active)
